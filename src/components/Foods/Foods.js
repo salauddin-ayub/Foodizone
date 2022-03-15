@@ -121,7 +121,7 @@ const Foods = (props) => {
 				<div className="row my-5">
 					{selectedFastFoods.map((food) => <FoodItem food={food} key={food.id} />)}
 				</div>
-{/* 
+
 				<div className="text-center">
 					{props.cart.length ? (
 						<Link to="/checkout">
@@ -132,7 +132,7 @@ const Foods = (props) => {
 							Check Out Your Food
 						</button>
 					)}
-				</div> */}
+				</div>
 			</div>
 		</section>
 	);
