@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { Link } from 'react-router-dom';
-import Logo from '../../images/logo2.png';
+import Logo from '../../images/logo3.png';
 import './SignUp.css';
 import { useAuth } from './useAuth';
 

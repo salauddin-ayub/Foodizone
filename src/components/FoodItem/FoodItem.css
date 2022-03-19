@@ -1,0 +1,15 @@
+.card{
+    background: #f5dcdc;
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: all 400ms ease;
+}
+.card:hover {
+    border-color: rgba(77, 181, 255, 0.4);
+    background: transparent;
+}
+.card-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}

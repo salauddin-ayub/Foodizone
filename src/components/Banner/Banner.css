@@ -1,5 +1,5 @@
 .banner {
-	background-image: url('../../images/bannerbackground.png');
+	background-image: url('../../images/banner.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -21,4 +21,7 @@
 	border-radius: 25px;
 	border: none;
 	padding-left: 20px;
+}
+.banner h1{
+	color: #fff;
 }

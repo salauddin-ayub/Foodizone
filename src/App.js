@@ -20,6 +20,7 @@ import OrderComplete from './components/OrderComplete/OrderComplete';
 import SearchResult from './components/SearchResult/SearchResult';
 
 
+
 function App() {
 
   const [cart, setCart] = useState([])
@@ -78,6 +79,7 @@ function App() {
               cart={cart}
             />
             <Blog />
+            
             <Footer />
           </Route>
 

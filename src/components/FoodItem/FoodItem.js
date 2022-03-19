@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import './FoodItem.css';
 const FoodItem = (props) => {
 
     const { id, name, description, price, img } = props.food;

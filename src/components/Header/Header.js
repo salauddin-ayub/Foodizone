@@ -21,7 +21,7 @@ const Header = (props) => {
                 <ul className='navbar-nav align-items-center'>
                     <li className='nav-item active'>
                         <Link to='/checkout' className='nav-link'>
-                            <FontAwesomeIcon icon={faCartArrowDown} />
+                            <FontAwesomeIcon style={{color: 'skyblue'}}icon={faCartArrowDown} />
                             <span className='badge bg-light'>{props.cart.length}</span>
                         </Link>
                     </li>

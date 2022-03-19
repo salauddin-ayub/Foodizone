@@ -10,7 +10,7 @@ const Banner = () => {
     return (
         <section className='banner d-flex align-items-center text-center'>
             <div className='container'>
-                <h1>Best Food Waiting For Your Belly</h1>
+                <h1>Choice Your Favourite Food</h1>
 
                 <div className='search-box col-md-6 my-5 mx-auto'>
                     <input

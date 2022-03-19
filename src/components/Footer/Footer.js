@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import whiteLogo from '../../images/logo.png';
+import whiteLogo from '../../images/logo4.png';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -30,8 +30,8 @@ const Footer = () => {
                 </div>
 
                 <div className='footer-bottom d-flex justify-content-between'>
-                    <small className='text-secondary'>Copyright &copy; 2020 Red Onion Online Food. Proudly created by <span>❤️</span>
-                        <span><a className='text-color' href="https://github.com/PriontoAbdullah"> Prionto Abdullah</a></span>
+                    <small className='text-secondary'>Copyright &copy; 2022 Foodie zoon Online Food. Proudly created by <span>❤️</span>
+                        <span><a className='text-color' href="https://salauddin-ayub02.netlify.app/"> Salauddin Ayub</a></span>
                     </small>
                     <ul className="list-inline">
                         <li className="list-inline-item ml-3"><Link to='/policy'>Privacy Policy</Link></li>

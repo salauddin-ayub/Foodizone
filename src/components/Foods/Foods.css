@@ -2,6 +2,7 @@
 	color: black;
 	cursor: pointer;
 	font-weight: 600;
+	
 }
 .food-area nav .active {
 	color: red;
@@ -25,10 +26,25 @@
 }
 .food-area div > a {
 	color: #000;
+	
 }
 .food-area div > a:hover {
 	text-decoration: none;
+	
 }
+/* .food-area .card{
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+
+} */
+/* .nav-item{
+	background: #2c2c6c;
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: all 400ms ease;
+} */
 .food-area .card:hover {
 	box-shadow: 0 5px 13px 0px rgb(210, 210, 210);
 }
